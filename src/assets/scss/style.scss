@@ -1,0 +1,35 @@
+/*================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+
+
+.horizontal-menu .header-navbar.navbar-horizontal ul#main-menu-navigation > li.active > a{
+    box-shadow: none !important;
+}
+
+.btn-primary:hover:not(.disabled):not(:disabled){
+    box-shadow: none !important;
+}
+
+.card{
+    border-radius: 0px !important;
+}
+
+.reportrange-text{
+    background: none !important;
+    // border: none !important;
+    display: flex;
+    align-items: center;
+    color: #d0d2d6;
+}
+
+.vue-daterange-picker{
+    margin-left: 335px;
+}
+
+.daterangepicker{
+    background-color: #283046 !important;
+}
